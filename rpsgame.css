@@ -1,0 +1,46 @@
+.container{
+    text-align: center;
+}
+body{
+    background-color:black;
+}
+.result{
+    margin: 30px;
+    font-size: 4rem;
+    color:gold;
+    text-align: center;
+}
+.game{
+    text-align: center;
+    display: inline-block;
+    color: aqua;
+    font-size: 2rem;
+}
+.firstdiv{
+    margin-right: 50px;
+}
+.button{
+    margin-top: 50px;
+   }
+button{
+    border-radius: 10px;
+    background-color: green;
+    font-size: 1.25rem;
+}   
+.scoreupdate{
+    color: white;
+    font-style: oblique;
+    margin-bottom: 1px;
+    border-bottom: 1px;
+}
+.score{
+    margin-top: 1px;
+    display: inline-block;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+}
+.scorespace{
+    margin-right: 20px;
+}

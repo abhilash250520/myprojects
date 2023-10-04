@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock paper scissors game</title>
+        <link rel="stylesheet" href="rpsgame.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="result">Result</h1>
+        <div class="game firstdiv">
+            <p >User</p>
+            <img class="use" src="rock.png">
+        </div>
+        <div class="game">
+        <p >Computer</p>
+        <img class="com" src="rock.png">
+        </div>
+
+        <div class="button">
+            <button id="rock">rock</button> 
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
+        </div>
+       <div class="scoreupdate">
+         <h3>Score</h3>
+         <div class="player score">
+            <p class="scorespace">Player : <span id=player></span></p>
+         </div>
+         <div class="computer score">   
+            <p>Computer : <span id="computer"></span></p>
+         </div>
+       </div>
+        </div>
+        <script src="rpsgame.js"></script>
+    </body>
+</html>
